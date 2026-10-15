@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "id": "io.github.melanpan.btop",
+  "name": "btop",
+  "version": "1.0.0",
+  "main": "main.qml",
+  "service": "service.py",
+  "icon": "icon.svg",
+  "description": "btop's resource monitor on the bottom screen: CPU, memory, disks, network and processes. Tap to click, drag to scroll.",
+  "author": "Melanpan",
+  "homepage": "https://github.com/aristocratos/btop"
+}
