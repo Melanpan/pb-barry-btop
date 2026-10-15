@@ -43,8 +43,10 @@ top screen.
 
 ## Install
 
-Get a package (see [Build](#build)) onto the device, then, as the user who
-plays in Game Mode:
+Download `btop-…-aarch64.zip` from the
+[latest release](https://github.com/Melanpan/pb-barry-btop/releases/latest)
+(or [build](#build) one) onto the device. Then, as the user who plays in
+Game Mode:
 
 ```sh
 barry-app install btop-1.0.0-with-btop-1.4.7-aarch64.zip
@@ -128,6 +130,8 @@ bundled btop into the data folder and marks it executable there.
 | `package.sh` | builds the package |
 
 ## License and credits
+
+GPL-2.0, like Barry Launcher ([LICENSE](LICENSE)).
 
 - **btop** is by Jakob P. Liljenberg (aristocratos), under Apache-2.0:
   [aristocratos/btop](https://github.com/aristocratos/btop). Packages built

@@ -27,7 +27,8 @@ work=$(mktemp -d)
 trap 'rm -rf "$work"' EXIT
 app="$work/btop"
 mkdir -p "$app" "$here/dist"
-cp "$here/barry-app.json" "$here/main.qml" "$here/service.py" "$here/btop.conf" "$here/icon.svg" "$app/"
+cp "$here/barry-app.json" "$here/main.qml" "$here/service.py" "$here/btop.conf" "$here/icon.svg" \
+   "$here/LICENSE" "$app/"
 
 name="btop-$version"
 if [ -n "$arch" ]; then
